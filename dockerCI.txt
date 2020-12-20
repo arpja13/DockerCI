@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /home/mobaxterm/Desktop/tools
+ssh -i "perf-kafka-kp.pem" root@52.2.144.185
+sudo su
+docker pull tricentisdocker/ta-egressprovisioning:1.0.0

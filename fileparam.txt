@@ -1,0 +1,16 @@
+HDP_BASE_URL=http://10.10.2.180:8080/
+METADATA_DB_URL=jdbc:postgresql://tastage.cvesbh2vkyxd.us-east-1.rds.amazonaws.com:5432/ta_master
+METADATA_DB_USER=postgres
+METADATA_DB_PASSWORD=dF8tK7mJzFycmAM5
+SINGLE_TENANT_DB_USER=postgres
+SINGLE_TENANT_DB_PASSWORD=dF8tK7mJzFycmAM5
+HDP_SUPER_ADMIN_USER=TenantSuperAdmin
+HDP_SUPER_ADMIN_PASSWORD=Ta@123456
+#ODATA_NAME_MAPPING_CASE=Default
+#ODATA_VERSION=4
+#DATA_STORE_ID=44
+HDP_NEW_USER_DEFAULT_PASSWORD=Ta@123456
+#HDP_REPORTING_DBCONFIG_ODATA_SCHEMAMAP="{\"odata_mapping_v3\":{\"schemas\":[{\"name\":\"ta\",\"tables\":{\"dimdefect\":{\"columns\":{\"id\":{\"primaryKeyComponent\":1},\"customfields\":{\"typeInfo\":{\"columnSize\":32768}}}},\"factresult\":{\"columns\":{\"id\":{\"primaryKeyComponent\":1},\"status\":{\"typeInfo\":{\"columnSize\":32768}},\"customfields\":{\"typeInfo\":{\"columnSize\":32768}},\"owninggroup\":{\"typeInfo\":{\"columnSize\":32768}},\"viewinggroup\":{\"typeInfo\":{\"columnSize\":32768}},\"executiontype\":{\"typeInfo\":{\"columnSize\":32768}}}},\"execution_summary\":{\"columns\":{\"clientid\":{\"primaryKeyComponent\":1}}},\"latest_testrun_status\":{\"columns\":{\"clientid\":{\"primaryKeyComponent\":1},\"status\":{\"typeInfo\":{\"columnSize\":32768}}}}}}]}}"
+LOG_LEVEL=INFO
+#DB_POLLING_INTERVAL_MS=300000
+#RUN_AS=Service
